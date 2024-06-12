@@ -1,13 +1,13 @@
 {
   "name": "newnpm-test-git-package",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test github package",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "homepage": "https://google.com",
   "publishConfig": {
-    "mlhr6661313:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com@mlhr6661313"
   },
   "repository": {
     "type": "git",

@@ -31,6 +31,7 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
+      - run: npm adduser --registry=https://registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}} --auth-type=legacy
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
