@@ -1,3 +1,3 @@
 export function showLog() {
-    console.log('log');
+    console.log('log');//fds
 }
