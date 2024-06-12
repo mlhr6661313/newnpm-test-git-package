@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "https://google.com",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com@mlhr6661313"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
