@@ -11,7 +11,8 @@
   },
   "repository": "https://github.com/mlhr6661313/newnpm-test-git-package",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "tsup"
   },
   "keywords": [
     "test"
